@@ -6,7 +6,8 @@ random() {
   echo
 }
 
-declare -a array=(0 1 2 3 4 5 6 7 8 9 a b c d e f)
+array=(1 2 3 4 5 6 7 8 9 0 a b c d e f)
+
 gen64() {
   local ip64() {
     printf "%s%s%s%s" "${array[$RANDOM % 16]}" "${array[$RANDOM % 16]}" "${array[$RANDOM % 16]}" "${array[$RANDOM % 16]}"
