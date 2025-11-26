@@ -1,5 +1,8 @@
 #!/bin/sh
-set -e
+random() {
+  tr </dev/urandom -dc A-Za-z0-9 | head -c5
+  echo
+}
 
 random() {
   tr </dev/urandom -dc A-Za-z0-9 | head -c5
