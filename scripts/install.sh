@@ -6,23 +6,7 @@ random() {
   echo
 }
 
-declare -a array
-    array[0]=0
-    array[1]=1
-    array[2]=2
-    array[3]=3
-    array[4]=4
-    array[5]=5
-    array[6]=6
-    array[7]=7
-    array[8]=8
-    array[9]=9
-    array[10]=a
-    array[11]=b
-    array[12]=c
-    array[13]=d
-    array[14]=e
-    array[15]=f
+declare -a array=(0 1 2 3 4 5 6 7 8 9 a b c d e f)
 
 gen64() {
   local ip64() {
