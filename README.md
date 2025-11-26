@@ -14,4 +14,4 @@ You can watch the video tutorial [here](https://www.youtube.com/watch?v=RK-cRfEF
 ### Step 2: Installation Command
 Run the following command to install the script:
 ```bash
-bash <(curl -s "https://raw.githubusercontent.com/VuDoanDungVN/ipv6-proxy-creator/main/scripts/install.sh")
+bash <(curl -s "https://raw.githubusercontent.com/lumb4zzcs02/ipv6-proxy-creator/main/scripts/install.sh")
